@@ -1,0 +1,17 @@
+div{
+    display: grid;
+    place-items: center;
+    text-align: center;
+}
+table, th, td{
+    border: 2px solid black;
+    border-collapse: collapse;
+}
+th, td{
+    padding: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#content{
+    margin-top: 10px;
+
+}
