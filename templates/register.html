@@ -1,0 +1,19 @@
+{% extends 'base.html' %}
+
+{% block head %}
+<title>Document</title>
+{% endblock %}
+
+{% block body %}
+<h1> Register </h1>
+<div id="content">
+    <form action="" method="POST">
+        {{ form.hidden_tag() }}
+        {{ form.username (id="text_input") }} <br>
+        {{ form.password (id="text_input") }} <br>
+        {{ form.submit(id="submit") }}
+        
+    </form>
+    <p>Already have an account? <a href="/" class="button">Login</a></p>
+</div>
+{% endblock %}

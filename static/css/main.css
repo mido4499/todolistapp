@@ -1,7 +1,39 @@
-div{
+body{
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px;
+}
+
+
+#content {
     display: grid;
     place-items: center;
     text-align: center;
+    padding: 20px;
+    padding-top: 300px;
+    text-align: center;
+    height: 50vh;
+    width: 600px;
+}
+
+#text_input{
+    border-width: 2px;
+    border-color: rgb(166, 166, 166);
+    border-radius: 5px;
+    height: 40px;
+    width: 300px;
+    margin: 5px;
+
+}
+
+h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #81C784;
+    margin-right: 150px;
+    margin-left: 150px;
+    font-size: 100px;
 }
 table, th, td{
     border: 2px solid black;
@@ -11,7 +43,28 @@ th, td{
     padding: 10px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+p, a{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+a{
+    text-decoration: none;
+}
+.button, #submit {
+    background: linear-gradient(45deg, #4CAF50, #81C784); /* Gradient background */
+    color: white; /* Text color */
+    border: none; /* No border */
+    border-radius: 25px; /* Rounded corners */
+    padding: 10px 20px; /* Padding for button */
+    font-size: 16px; /* Font size */
+    cursor: pointer; /* Change cursor to pointer */
+    transition: all 0.3s ease; /* Smooth transition */
+}
+
+/* Hover effect */
+button:hover {
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3); /* Drop shadow on hover */
+    background: linear-gradient(45deg, #388E3C, #66BB6A); /* Darker gradient on hover */
+}
 #content{
     margin-top: 10px;
-
 }
