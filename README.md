@@ -12,7 +12,12 @@ git clone https://github.com/mido4499/todolistapp
 ```bash
 cd todolistapp
 ```
-4. Install dependencies
+4. Set up a virtual environment
+```bash
+python3 -m venv venv
+source venv/bin/activate
+```
+5. Install dependencies
 ```bash
 pip install -r requirements.txt
 ```
